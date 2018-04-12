@@ -1,0 +1,148 @@
+
+/* The drop cap related style*/
+.fontFirstLetter
+{
+     font-family:  "Times New Roman", Times, serif,Arial, Helvetica;
+    font-size: 60px;
+    line-height: 1;
+    
+    float:left;
+    text-shadow: #690 .05em .05em;
+    
+    margin-right: 5px;
+    
+}
+
+/* The font related class style*/
+
+.fontContent
+{
+    
+    font-family: "Times New Roman", Times, serif,Arial, Helvetica;
+/*    font-family: Arial, Helvetica, serif,Arial, Helvetica;*/
+    font-style: normal;
+    font-size:20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* The page Heading */
+.pageHeading
+{
+    text-align: center;
+    margin:auto;
+    width:100%;
+    margin-top:-1%;
+    
+    border:20px;
+}
+
+
+/* Twitter buzzwords*/
+.twitterBuzz
+{
+   
+    margin-top:-15%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    padding-top:1.5%;
+    
+    transform: scale(0.95,0.6);
+/*
+    border: 2px dotted grey;
+    border-radius: 20px;
+*/
+    
+   
+}
+
+.twitterAside
+{
+    margin-top:2%;
+}
+
+.twitterBelow
+{
+    margin-left: 1%;
+}
+
+
+
+/* Reddit Data */
+.redditData
+{
+    margin-top:1%; 
+    margin-left:5%;
+/*    border-radius: 20px;*/
+    margin-right: 1%;
+    
+}
+
+
+.redditContent
+{
+    margin-top:4.5%;
+    margin-left:8%;
+    margin-right:2%;
+    
+}
+
+
+/* Google trends  */
+.googleTrends
+{
+    
+    margin-left:1%;
+    margin-right:2%;
+    vertical-align: middle;
+    transform: scaleY(0.7);
+    margin-top:-5%;
+   
+   
+/*    border-radius: 20px*/
+}
+.googleContent
+{
+   
+    width:45%;
+    margin-left:4%;
+    float:left;
+}
+
+
+/* Reddit and Google Explanation style */
+.redditGoogleContent
+{
+    margin-left: 2%;
+}
+
+
+
+/* Oxford Chart Vizualization  */
+.oxfordData
+{
+    margin-top:-5%; border-radius:20px;
+    transform:scaleY(0.85);
+   
+}
+
+
+/* Oxford Description */
+.oxfordAside
+{
+    margin-top:-2%; 
+    margin-left:-1%;
+    margin-right:2%;
+    width:35%;
+   
+}
+
+.oxfordBottom
+{
+    margin-top:3%;
+    margin-left:2%;
+    margin-bottom: 3%;
+    float: left;
+}
