@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="result.css">
+	<!-- jQuery library -->
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>What factors make you happy when moving to a new city</title>
+</head>
+<body class="body1">
+    
+    <div class="row" style="margin-top:20px; margin-left:10px;">
+        <button style="float:right;margin-top:2%;margin-right:5%;"onclick="location.href = '/';" id="myButton" class="float-left submit-button" >Home</button>
+       
+    <div style="width:25%;margin-bottom:-10px;" >
+  
+        <div><span style="font-size: 20px;margin-bottom:-20px;">Best:</span> <br/>
+      <div class="alert alert-success" style="border:2px solid green">
+
+             <h4>{{ bestOne }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestTwo }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestThree }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-up"></span></h4>
+
+        </div>  
+        </div></div>
+    <div style="width:25%; ">
+    <div><span style="font-size: 20px;margin-top:-5px;">Worst:</span> <br/>
+      <div class="alert alert-danger" style="border:2px solid #F1948A">
+
+              <h4>{{ worstOne }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstTwo}}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstThree }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-down"></span></h4>
+
+        </div>  
+         </div>
+    
+    
+    </div>
+        
+        
+        </div>
+    
+    
+    
+    <div style="margin-top:-15px; margin-bottom:0px;margin-left:0px;">
+     <div class="col-sm-3">
+    <div style="text-align: center;font-size:28px;"> <strong>AGE</strong></div>
+        <div><span style="font-size: 20px;">Best:</span> <br/>
+      <div class="alert alert-success" style="border:2px solid green"> 
+
+             <h4>{{ bestOneAge }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestTwoAge }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestThreeAge }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-up"></span></h4>
+
+        </div>  
+         </div>
+    
+    <div><span style="font-size: 20px;">Worst:</span> <br/>
+      <div class="alert alert-danger" style="border:2px solid #F1948A">
+
+              <h4>{{ worstOneAge }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstTwoAge }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstThreeAge }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-down"></span></h4>
+
+        </div>  
+         </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+   <div class="col-sm-3">
+       <div style="text-align: center;font-size:28px;"> <strong>GENDER</strong></div>
+        <div><span style="font-size: 20px;">Best:</span> <br/>
+      <div class="alert alert-success" style="border:2px solid green">
+
+             <h4>{{ bestOneGender }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestTwoGender }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestThreeGender }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-up"></span></h4>
+
+        </div>  
+         </div>
+    
+    <div><span style="font-size: 20px;">Worst:</span> <br/>
+      <div class="alert alert-danger"style="border:2px solid #F1948A">
+
+              <h4>{{ worstOneGender }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstTwoGender }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstThreeGender }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-down"></span></h4>
+
+        </div>  
+         </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    <div class="col-sm-3">
+    <div style="text-align: center;font-size:28px;"> <strong>REGION</strong></div>
+        <div><span style="font-size: 20px;">Best:</span> <br/>
+      <div class="alert alert-success" style="border:2px solid green">
+
+             <h4>{{ bestOneRegion }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestTwoRegion }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestThreeRegion }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-up"></span></h4>
+
+        </div>  
+         </div>
+    
+    <div><span style="font-size: 20px;">Worst:</span> <br/>
+      <div class="alert alert-danger" style="border:2px solid #F1948A">
+
+              <h4>{{ worstOneRegion }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstTwoRegion }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstThreeRegion }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-down"></span></h4>
+
+        </div>  
+         </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    <div class="col-sm-3">
+    <div style="text-align: center;font-size:28px;"> <strong>EMPLOYMENT</strong></div>
+        <div><span style="font-size: 20px;">Best:</span> <br/>
+      <div class="alert alert-success" style="border:2px solid green">
+
+             <h4>{{ bestOneEmployment }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestTwoEmployment }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-up"></span></span></h4>
+            <h4>{{ bestThreeEmployment }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-up"></span></h4>
+
+        </div>  
+         </div>
+    
+    <div><span style="font-size: 20px;">Worst:</span> <br/>
+      <div class="alert alert-danger "style="border:2px solid #F1948A">
+
+              <h4>{{ worstOneEmployment }}&nbsp;<span style="float: right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstTwoEmployment }}&nbsp;<span style="float:right;"><span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;<span class="glyphicon glyphicon-thumbs-down"></span></span></h4>
+            <h4>{{ worstThreeEmployment }}&nbsp;<span style="float: right;"class="glyphicon glyphicon-thumbs-down"></span></h4>
+
+        </div>  
+         </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+   
+ </div>
+<!--    <button style="margin-left:1%;margin-top:-10px;"onclick="location.href = '/';" id="myButton" class="float-left submit-button" >Home</button>-->
+    
+    
+    
+    
+   
+    
+    
+    
+   
+
+</body>
+</html>

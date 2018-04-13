@@ -1,0 +1,73 @@
+City	Country	Population 2011	Normalization
+Aberdeen	United Kingdom	222793	-0.260979594
+Aldershot	United Kingdom	179951	-0.296649764
+Barnsley	United Kingdom	231221	-0.253962457
+Basildon	United Kingdom	174497	-0.301190754
+Belfast	United Kingdom	468712	-0.05622789
+Birkenhead	United Kingdom	319783	-0.1802259
+Birmingham	United Kingdom	2419500	1.567994583
+Blackburn	United Kingdom	147489	-0.323677565
+Blackpool	United Kingdom	217822	-0.265118439
+Bournemouth	United Kingdom	466054	-0.058440936
+Bradford	United Kingdom	522452	-0.011484066
+Brighton	United Kingdom	334551	-0.16793009
+Bristol	United Kingdom	691001	0.128849519
+Burnley	United Kingdom	176511	-0.299513901
+Cambridge	United Kingdom	123867	-0.343345198
+Cardiff	United Kingdom	346090	-0.15832274
+Chatham	United Kingdom	263925	-0.226733167
+Coventry	United Kingdom	316960	-0.182576324
+Crawley	United Kingdom	106597	-0.357724168
+Derby	United Kingdom	248752	-0.239366179
+Doncaster	United Kingdom	302402	-0.194697288
+Dundee	United Kingdom	147268	-0.323861569
+Edinburgh	United Kingdom	476626	-0.049638709
+Exeter	United Kingdom	117773	-0.348419051
+Glasgow	United Kingdom	963753	0.355942329
+Gloucester	United Kingdom	121688	-0.34515943
+Huddersfield	United Kingdom	422458	-0.094738885
+Hull	United Kingdom	256406	-0.232993472
+Ipswich	United Kingdom	133384	-0.335421362
+Leeds	United Kingdom	751485	0.179208385
+Leicester	United Kingdom	479924	-0.0468928
+Liverpool	United Kingdom	612308	0.063329873
+London	United Kingdom	9350226	7.338504206
+Luton	United Kingdom	203201	-0.277291857
+Manchester	United Kingdom	2364679	1.52235072
+Mansfield	United Kingdom	223963	-0.260005454
+Middlesbrough	United Kingdom	465199	-0.059152808
+Milton Keynes	United Kingdom	248821	-0.239308729
+Newcastle	United Kingdom	829319	0.24401283
+Newport	United Kingdom	236811	-0.249308233
+Northampton	United Kingdom	212069	-0.269908376
+Norwich	United Kingdom	257158	-0.232367359
+Nottingham	United Kingdom	640791	0.087044766
+Oxford	United Kingdom	151906	-0.319999979
+Peterborough	United Kingdom	183631	-0.293585803
+Plymouth	United Kingdom	256384	-0.23301179
+Portsmouth	United Kingdom	519943	-0.013573055
+Preston	United Kingdom	356414	-0.149726997
+Reading	United Kingdom	310078	-0.188306265
+Sheffield	United Kingdom	809978	0.227909549
+Slough	United Kingdom	140205	-0.32974221
+Southampton	United Kingdom	362081	-0.145008663
+Southend	United Kingdom	344956	-0.159266907
+Stoke	United Kingdom	372879	-0.136018268
+Sunderland	United Kingdom	275506	-0.217090848
+Swansea	United Kingdom	378835	-0.131059314
+Swindon	United Kingdom	209156	-0.272333735
+Telford	United Kingdom	166641	-0.307731645
+Wakefield	United Kingdom	325837	-0.175185351
+Warrington	United Kingdom	202228	-0.278101975
+Wigan	United Kingdom	317849	-0.181836145
+Worthing	United Kingdom	104640	-0.359353563
+York	United Kingdom	198051	-0.281579737
+			
+			
+			
+Notes:			
+Population	"Source: Eurostat, Population on 1 January by age groups and sex - cities and greater cities; Population on 1 January by broad age group, sex and NUTS 3 region"		
+			
+			
+			
+Data generated from: http://www.centreforcities.org/data-tool/su/28658030			

@@ -1,0 +1,19 @@
+.body1 {
+	background:#FEF9E7;
+}
+
+.heading
+{
+    text-align: center;
+    font-size:40px;
+    font-style: normal;
+    line-height:normal;
+    margin-top:2%;
+    background:#FEF9E7;
+    margin-bottom:5%;
+}
+.form-container
+{
+    margin-left:6%;
+   align-self: auto;
+}

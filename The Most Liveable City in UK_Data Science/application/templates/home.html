@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<!-- jQuery library -->
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>What factors make you happy when moving to a new city</title>
+</head>
+<body class="container-fluid body1">
+	<h1>
+		What factors make you happy when moving to a new city?
+	</h1>
+
+    <div class="form-container"> 
+<form action='/request' class="form-horizontal"method="post" style="margin-left:2%;">
+<div id="age" class="form-group" style="width:10%;margin-top:2%;">
+    <label >My age is :</label>
+    <select class="xla_k form-control"name="Age" id="select_age" >
+    <option value="age1"><18</option>
+    <option value="age2">18-25</option>
+    <option value="age3">26-35</option>
+    <option value="age4">36-45</option>
+    <option value="age5">46-55</option>
+    <option value="age6">56+</option>
+
+    </select>
+</div>
+    
+    
+    
+    
+    
+
+
+<div id="gender" class="form-group" style="width:15%;">
+    <label>I identify my gender as...</label>
+    <select name="Gender" id="select_gender" class="xla_k form-control">
+    <option value="gender_f">Female</option>
+    <option value="gender_m">Male</option>
+    <option value="gender_x">Prefer not to disclose</option>
+    </select>
+</div>
+<div id="region" class="form-group" style="width:15%;">
+    <label>My home region is..</label>
+    <select name="Region" id="select_region" class="xla_k form-control">
+    <option value="region_EU">Europe(not UK)</option>
+    <option value="region_UK">UK</option>
+    <option value="region_Asia">Asia</option>
+    <option value="region_Africa">Africa</option>
+    <option value="region_NA">North America</option>
+    </select>
+</div>
+<div id="employment" class="form-group" style="width:30%;">
+    <label>Professional/Employment status: I am currently...</label>
+    <select name="Employment" id="select_work" class="xla_k form-control">
+    <option value="work_s1">Self-employed</option>
+    <option value="work_s2">Employed for wages</option>
+    <option value="work_s3">Out of work and looking for work</option>
+    <option value="work_s4">Out of work but currently not looking for work</option>
+    <option value="work_s5">A homemaker (housewife/househusband)</option>
+    <option value="work_s6">A student</option>
+    <option value="work_s7">Military</option>
+    <option value="work_s8">Retired</option>
+    <option value="work_s9">Unable to work</option>
+    </select>
+</div>
+    
+    
+<div id="rank" "form-group" style="margin-left:-15px;margin-top:2%">
+  
+    <label>Rank the following options from the worst (1) to the best (5) *
+Below you will find some of the factors which people find important when deciding in which city to live. Rank them from the least important (1) to the most important (5), according to your own preferences. GVA PER WORKER*: Gross value added per worker is the value of goods and services produced in an area
+        (productivity of each worker). Positively correlated with living standards and wealth. ENTERTAINMENT**: Number of pubs, clubs, cinemas, theatres etc.
+    </label>
+   
+<table  class="table table-striped table-bordered" style="width:60%;margin-top:2%;">
+   
+    <tr>
+        <td>Flat/House prices</td>
+         <td>
+		<label class="radio-inline"><input name="HousePrice" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="HousePrice" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="HousePrice" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="HousePrice" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="HousePrice" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+	    <tr>
+        <td>Population</td>
+        <td>
+		<label class="radio-inline"><input name="Population" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Population" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Population" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Population" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Population" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+		    <tr>
+        <td>Road Traffic</td>
+        <td>
+		<label class="radio-inline"><input name="RoadTraffic" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="RoadTraffic" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="RoadTraffic" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="RoadTraffic" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="RoadTraffic" type="radio" value="5" />5</label>
+		
+		</td>
+    </tr>
+		    <tr>
+        <td>GVA per worker*</td>
+         <td>
+		<label class="radio-inline"><input name="GVA" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="GVA" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="GVA" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="GVA" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="GVA" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+		    <tr>
+        <td>Unemployment rate</td>
+        <td>
+		<label class="radio-inline"><input name="Unemployment" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Unemployment" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Unemployment" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Unemployment" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Unemployment" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+		    <tr>
+        <td>Noise level at night</td>
+        <td>
+		<label class="radio-inline"><input name="Noise" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"> <input name="Noise" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Noise" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Noise" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Noise" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+		    <tr>
+        <td>Total Jobs available</td>
+        <td>
+
+		<label class="radio-inline"><input name="Jobs" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Jobs" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Jobs" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Jobs" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Jobs" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+		    <tr>
+        <td>Weather</td>
+       <td>
+
+		<label class="radio-inline"><input name="Weather" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Weather" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Weather" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Weather" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Weather" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+			    <tr>
+        <td>Number of schools</td>
+        <td>
+
+		<label class="radio-inline"><input name="Schools" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Schools" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Schools" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Schools" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Schools" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+			    <tr>
+        <td>Entertainment**</td>
+        <td>
+
+		<label class="radio-inline"><input name="Entertainment" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Entertainment" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Entertainment" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Entertainment" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Entertainment" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+			    <tr>
+        <td>Quality of higher education</td>
+        <td>
+
+		<label class="radio-inline"><input name="Education" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Education" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Education" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Education" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Education" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+			    <tr>
+        <td>Number of hospitals</td>
+        <td>
+
+		<label class="radio-inline"><input name="Hospitals" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Hospitals" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Hospitals" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Hospitals" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Hospitals" type="radio" value="5" />5</label>
+
+		</td>
+    </tr>
+		<tr>
+        <td>Connectivity to other cities</td>
+		<td>
+
+		<label class="radio-inline"><input name="Connectivity" type="radio" value="1" required/>1</label>
+		<label class="radio-inline"><input name="Connectivity" type="radio" value="2" />2</label>
+		<label class="radio-inline"><input name="Connectivity" type="radio" value="3" />3</label>
+		<label class="radio-inline"><input name="Connectivity" type="radio" value="4" />4</label>
+		<label class="radio-inline"><input name="Connectivity" type="radio" value="5" />5</label>
+
+		</td>
+		</tr>
+    </table>
+    
+ 
+
+</div>
+
+{#<button id="submit" class="btn btn-success">submit</button>#}
+<input type="submit" class='btn btn-success'value="Submit">
+</form>
+    </div>
+<script>
+
+</script>
+
+</body>
+</html>

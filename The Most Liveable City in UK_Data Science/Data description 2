@@ -1,0 +1,93 @@
+
+1] 
+Dataset: Number of people exposed to road traffic noise 55dB or more at NIGHT.csv
+Title: Number of people exposed to road traffic noise 55dB or more at NIGHT.csv
+Data: measured 2012
+Source: https://data.gov.uk/dataset/noise-exposure-data-england
+Description: The data show the estimated number of people affected by noise from road traffic 55db or higher.
+Row count: 67
+UK Cities: 67
+Columns datatype: numeric
+EXTRA INFO: I chose 55db or more at night because of this article: http://www.euro.who.int/en/health-topics/environment-and-health/noise/policy/who-night-noise-guidelines-for-europe
+It says: "Long-term average exposure to levels above 55 dB, similar to the noise from a busy street, can trigger elevated blood pressure and heart attacks."
+
+2]
+Dataset: Median house price Uk cities.xls
+Title: The median price for a house/fat of UK cities
+Data: Q4 1995 to year ending Q2 2015
+Source: https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/townsandcitiesanalysis
+Description: The median price for a house in UK cities, columns vary depending on extra factors for the house/fat.
+Row count: 114
+UK Cities: 114
+Columns datatype: numeric
+
+3]
+Dataset: proportion of population Uk cities.xls
+Title: Population distribution by age of Uk cities
+Data: census 2011
+Source: https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/townsandcitiesanalysis
+Description: Population distribution by age of Uk cities in proportions. From 0-15, 16-64, 65+ and 85+ age in % of the total population of a particular city.
+Row count: 114
+UK Cities: 114
+Columns datatype: numeric, proportions in %
+
+4]
+Dataset: total_jobs.csv
+Title: Uk cities, total number of jobs available
+Data: 2011
+Source: http://www.centreforcities.org/data-tool/dataset/european-cities#graph=bar&city=aberdeen&city=aldershot&city=barnsley&city=basildon&city=belfast&city=birkenhead&city=birmingham&city=blackburn&city=blackpool&city=bournemouth&city=bradford&city=brighton&city=bristol&city=burnley&city=cambridge&city=cardiff&city=chatham&city=coventry&city=crawley&city=derby&city=doncaster&city=dundee&city=edinburgh&city=exeter&city=glasgow&city=gloucester&city=huddersfield&city=hull&city=ipswich&city=leeds&city=leicester&city=liverpool&city=london&city=luton&city=manchester&city=mansfield&city=middlesbrough&city=milton-keynes&city=newcastle&city=newport&city=northampton&city=norwich&city=nottingham&city=oxford&city=peterborough&city=plymouth&city=portsmouth&city=preston&city=reading&city=sheffield&city=slough&city=southampton&city=southend&city=stoke&city=sunderland&city=swansea&city=swindon&city=telford&city=wakefield&city=warrington&city=wigan&city=worthing&city=york&sortOrder=high&indicator=total-jobs\\single\\2011&orient=horz
+Description: 
+Row count: 62
+UK Cities: 62
+Columns datatype: numeric
+
+5]
+Dataset: population.csv
+Title: Uk cities and the population count
+Data: 2011
+Source: http://www.centreforcities.org/data-tool/dataset/european-cities#graph=bar&city=aberdeen&city=aldershot&city=barnsley&city=basildon&city=belfast&city=birkenhead&city=birmingham&city=blackburn&city=blackpool&city=bournemouth&city=bradford&city=brighton&city=bristol&city=burnley&city=cambridge&city=cardiff&city=chatham&city=coventry&city=crawley&city=derby&city=doncaster&city=dundee&city=edinburgh&city=exeter&city=glasgow&city=gloucester&city=huddersfield&city=hull&city=ipswich&city=leeds&city=leicester&city=liverpool&city=london&city=luton&city=manchester&city=mansfield&city=middlesbrough&city=milton-keynes&city=newcastle&city=newport&city=northampton&city=norwich&city=nottingham&city=oxford&city=peterborough&city=plymouth&city=portsmouth&city=preston&city=reading&city=sheffield&city=slough&city=southampton&city=southend&city=stoke&city=sunderland&city=swansea&city=swindon&city=telford&city=wakefield&city=warrington&city=wigan&city=worthing&city=york&sortOrder=high&indicator=total-jobs\\single\\2011&orient=horz
+Description: Number of people living in Uk cities.
+Row count: 63
+UK Cities: 63
+Columns datatype: numeric
+
+6]
+Dataset: gva_per_worker.csv
+Title: Gross Value Added per an employed person UK cities
+Data: 2011
+Source: http://www.centreforcities.org/data-tool/dataset/european-cities#graph=bar&city=aberdeen&city=aldershot&city=barnsley&city=basildon&city=belfast&city=birkenhead&city=birmingham&city=blackburn&city=blackpool&city=bournemouth&city=bradford&city=brighton&city=bristol&city=burnley&city=cambridge&city=cardiff&city=chatham&city=coventry&city=crawley&city=derby&city=doncaster&city=dundee&city=edinburgh&city=exeter&city=glasgow&city=gloucester&city=huddersfield&city=hull&city=ipswich&city=leeds&city=leicester&city=liverpool&city=london&city=luton&city=manchester&city=mansfield&city=middlesbrough&city=milton-keynes&city=newcastle&city=newport&city=northampton&city=norwich&city=nottingham&city=oxford&city=peterborough&city=plymouth&city=portsmouth&city=preston&city=reading&city=sheffield&city=slough&city=southampton&city=southend&city=stoke&city=sunderland&city=swansea&city=swindon&city=telford&city=wakefield&city=warrington&city=wigan&city=worthing&city=york&sortOrder=high&indicator=total-jobs\\single\\2011&orient=horz
+Description: Gross Value Added per an employed person 63 UK cities, meaning how much of goods and services a worker produces 
+Row count: 63
+UK Cities: 63
+Columns datatype: numeric
+
+7]
+Dataset: unemployment_rate.csv
+Title: Unemployment Rate Uk cities
+Data: 2011
+Source: http://www.centreforcities.org/data-tool/dataset/european-cities#graph=bar&city=aberdeen&city=aldershot&city=barnsley&city=basildon&city=belfast&city=birkenhead&city=birmingham&city=blackburn&city=blackpool&city=bournemouth&city=bradford&city=brighton&city=bristol&city=burnley&city=cambridge&city=cardiff&city=chatham&city=coventry&city=crawley&city=derby&city=doncaster&city=dundee&city=edinburgh&city=exeter&city=glasgow&city=gloucester&city=huddersfield&city=hull&city=ipswich&city=leeds&city=leicester&city=liverpool&city=london&city=luton&city=manchester&city=mansfield&city=middlesbrough&city=milton-keynes&city=newcastle&city=newport&city=northampton&city=norwich&city=nottingham&city=oxford&city=peterborough&city=plymouth&city=portsmouth&city=preston&city=reading&city=sheffield&city=slough&city=southampton&city=southend&city=stoke&city=sunderland&city=swansea&city=swindon&city=telford&city=wakefield&city=warrington&city=wigan&city=worthing&city=york&sortOrder=high&indicator=total-jobs\\single\\2011&orient=horz
+Description: Unemployment rate in 63 Uk cities in % 
+Row count: 63
+UK Cities: 63
+Columns datatype: numeric
+
+8]
+Dataset: road traffic (delay in sec).ods
+Title: Average delay on locally managed 'A' roads in England
+Source: https://www.gov.uk/government/statistics/travel-time-measures-for-the-strategic-road-network-and-local-a-roads-july-2016-to-june-2017
+Description: Average delay in seconds for cars in comparing with free flow for every city in the UK
+Row count: 161
+Cities: 161
+Columns datatype: numeric
+
+9]
+Dataset: *
+Title: Weather in the UK cities
+Source: https://data.gov.uk/dataset/historic-monthly-meteorological-station-data
+Description: Monthly Historical information for 37 UK Meteorological Stations
+Row count: ?
+Cities: (37 stations), not in every city	
+Columns datatype: numeric
+
+* - didn't finished at this moment
+

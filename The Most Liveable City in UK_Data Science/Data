@@ -1,0 +1,39 @@
+[1] 
+Dataset: railway-stations.xlsx
+Title: All railwaystation around the whole UK
+Data: All railway stations in UK
+Source: https://www.theguardian.com/news/datablog/2011/may/19/train-stations-listed-rail
+Description: The data show the whole railway stations in United Kingdoms
+Row count: 2534
+UK Cities:  not divided in cities but in regions
+Columns datatype: numeric,characters
+
+[2]
+Dataset: european-quality-life-survey.xls
+Title: european-quality-life-survey
+Data: The survey result of the live quality
+Source: https://data.gov.uk/dataset/european-quality-of-life-survey
+Description: This dataset contain the volunteering and community relation etc...
+Row count: 88
+UK Cities: just london and the rest of London and the average of Eroupe participle in the compare.
+Columns datatype: numeric,characters  
+
+[3]
+Dataset: open_pubs.csv
+Title: All pubs around the whole UK
+Data: All pubs register in UK
+Source: https://www.kaggle.com/getthedata/open-pubs
+Description: The data was found in kaggle,contains pub name, address, position and local authority.
+Row count: 51567
+UK Cities: the cities divided can be judged by local authority
+Columns datatype: numeric,characters
+
+[4]
+Dataset: tripadvisor_co_uk-travel_restaurant_reviews_sample.csv
+Title: tripadvisor_co_uk-travel_restaurant
+Data: The resturant in London 
+Source: https://www.kaggle.com/PromptCloudHQ/londonbased-restaurants-reviews-on-tripadvisor
+Description: restaurant_id,restaurant_location,about 1.8 million resturants
+Row count: 19884
+UK Cities: Just london area
+Columns datatype: numeric,characters
